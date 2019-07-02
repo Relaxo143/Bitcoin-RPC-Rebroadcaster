@@ -2,7 +2,10 @@
 A simple console app, written in c#, that can re-broadcast Bitcoin transactions using your own node.
 
 
-# Please only use this program on your local network where your Bitcoin node is hosted! 
+## Please only use this program on your local network where your Bitcoin node is hosted! 
+
+###### When running this program your anti-virus will most probably flag it. Windows smartscreen does the same. This is normal. You can run the program anyway. Make sure to read the source code so you are 100% certain that nothing malicious is being run on your computer.
+
 Add this to your bitcoin.conf file in order to use this program:
 ```server=1
 rpcallowip=127.0.0.1
