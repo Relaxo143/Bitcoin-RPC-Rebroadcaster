@@ -28,8 +28,9 @@ https://btc.chaintools.io
 
 3) Click on JSON
 
-4) Scroll all the way down where you'll find a '"hex":' field.
+4) Scroll all the way down where you'll find a `"hex":` field.
 
 5) Copy everything from it except the quotation marks --> This is your raw transaction in hex format.
 
-Alternatively, you can also use your own node for this task. Open the RPC console in the debug window and enter 'getrawtransaction yourTXID' Bitcoin Core will return your transaction in hex format.
+Alternatively, you can also use your own node for this task. Open the RPC console in the debug window and enter `getrawtransaction yourTXID` 
+Bitcoin Core will return your transaction in hex format.
