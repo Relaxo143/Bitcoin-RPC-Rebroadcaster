@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.IO;
 using System.Reflection;
 using System.Threading;
@@ -24,6 +24,7 @@ namespace Bitcoin_Tx_Rebroadcaster
             int delayChoice = -1;
             int customDelay;
             bool isFirstTry = true;
+			float maxFeeRate = 0.01f;
 
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Green;
